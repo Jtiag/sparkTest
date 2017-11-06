@@ -1,0 +1,14 @@
+.idea/
+target/
+*.iml
+*.ipr
+*.iws
+*.log
+out
+#.swp
+*.temp
+*.bak
+*.tem
+.classpath
+.project
+.settings/
