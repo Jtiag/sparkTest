@@ -9,13 +9,13 @@ object OtherFunction {
         .builder()
         .appName("OtherFunction") 
         .master("local") 
-        .config("spark.sql.warehouse.dir", "C:\\Users\\Administrator\\Desktop\\spark-warehouse")
+        .config("spark.sql.warehouse.dir", "E:\\tmp\\test\\spark-warehouse")
         .getOrCreate()
     
     import org.apache.spark.sql.functions._
     
-    val employee = spark.read.json("C:\\Users\\Administrator\\Desktop\\employee.json")
-    val department = spark.read.json("C:\\Users\\Administrator\\Desktop\\department.json")
+    val employee = spark.read.json("E:\\tmp\\test\\employee.json")
+    val department = spark.read.json("E:\\tmp\\test\\department.json")
     
     // 日期函数：current_date、current_timestamp
     // 数学函数：round

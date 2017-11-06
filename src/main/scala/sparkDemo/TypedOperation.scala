@@ -16,14 +16,14 @@ object TypedOperation {
       .builder()
       .appName("TypedOperation")
       .master("local")
-      .config("spark.sql.warehouse.dir", "C:\\Users\\Administrator\\Desktop\\spark-warehouse")
+      .config("spark.sql.warehouse.dir", "E:\\tmp\\test\\spark-warehouse")
       .getOrCreate()
 
     import spark.implicits._
 
-    val employee = spark.read.json("C:\\Users\\Administrator\\Desktop\\employee.json")
-    val employee2 = spark.read.json("C:\\Users\\Administrator\\Desktop\\employee2.json")
-    val department = spark.read.json("C:\\Users\\Administrator\\Desktop\\department.json")
+    val employee = spark.read.json("E:\\tmp\\test\\employee.json")
+    val employee2 = spark.read.json("E:\\tmp\\test\\employee2.json")
+    val department = spark.read.json("E:\\tmp\\test\\department.json")
 
     val employeeDS = employee.as[Employee]
     val employeeDS2 = employee2.as[Employee]

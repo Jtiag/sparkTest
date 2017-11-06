@@ -9,14 +9,14 @@ object AggregateFunction {
         .builder()
         .appName("AggregateFunction") 
         .master("local") 
-        .config("spark.sql.warehouse.dir", "C:\\Users\\Administrator\\Desktop\\spark-warehouse")
+        .config("spark.sql.warehouse.dir", "C:\\Users\\71065\\Desktop\\spark-warehouse")
         .getOrCreate()
     
     import spark.implicits._
     import org.apache.spark.sql.functions._
     
-    val employee = spark.read.json("C:\\Users\\Administrator\\Desktop\\employee.json")
-    val department = spark.read.json("C:\\Users\\Administrator\\Desktop\\department.json")
+    val employee = spark.read.json("C:\\Users\\71065\\Desktop\\employee.json")
+    val department = spark.read.json("C:\\Users\\71065\\Desktop\\department.json")
     
 //    employee
 //        .join(department, $"depId" === $"id")

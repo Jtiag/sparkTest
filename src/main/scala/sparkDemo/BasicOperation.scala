@@ -22,12 +22,12 @@ object BasicOperation {
         .builder()
         .appName("BasicOperation") 
         .master("local[1]")
-        .config("spark.sql.warehouse.dir", "C:\\Users\\Administrator\\Desktop\\spark-warehouse")
+        .config("spark.sql.warehouse.dir", "C:\\Users\\71065\\Desktop\\spark-warehouse")
         .getOrCreate()
     
     import spark.implicits._
     
-    val employee = spark.read.json("C:\\Users\\Administrator\\Desktop\\employee.json")
+    val employee = spark.read.json("C:\\Users\\71065\\Desktop\\employee.json")
     
     // 持久化，在rdd部分仔细讲解过，我们这里就不展开讲了
     // 持久化，如果要对一个dataset重复计算两次的话，那么建议先对这个dataset进行持久化再进行操作，避免重复计算
@@ -49,7 +49,7 @@ object BasicOperation {
     
     // 以前给大家演示过，写hdfs是肯定没有问题的
 //    val employeeWithAgeGreaterThen30DF = spark.sql("select * from employee where age > 30")
-//    employeeWithAgeGreaterThen30DF.write.json("C:\\Users\\Administrator\\Desktop\\employeeWithAgeGreaterThen30DF.json")
+//    employeeWithAgeGreaterThen30DF.write.json("C:\\Users\\71065\\Desktop\\employeeWithAgeGreaterThen30DF.json")
     /**
       * dataframe 转化为dataSet
       */

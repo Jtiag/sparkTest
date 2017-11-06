@@ -15,12 +15,12 @@ object ActionOperation {
       .builder()
       .appName("ActionOperation")
       .master("local")
-      .config("spark.sql.warehouse.dir", "C:\\Users\\Administrator\\Desktop\\spark-warehouse")
+      .config("spark.sql.warehouse.dir", "E:\\tmp\\test\\spark-warehouse")
       .getOrCreate()
 
     import spark.implicits._
 
-    val employee = spark.read.json("C:\\Users\\Administrator\\Desktop\\employee.json")
+    val employee = spark.read.json("E:\\tmp\\test\\employee.json")
 
     // collect：将分布式存储在集群上的分布式数据集（比如dataset），中的所有数据都获取到driver端来
     employee.collect().foreach {
