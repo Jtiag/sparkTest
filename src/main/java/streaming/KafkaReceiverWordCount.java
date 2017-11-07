@@ -50,7 +50,7 @@ public class KafkaReceiverWordCount {
 					@Override
 					public Iterator<String> call(Tuple2<String, String> tuple)
 							throws Exception {
-						return (Iterator<String>) Arrays.asList(tuple._2.split(" "));
+						return Arrays.asList(tuple._2.split(" ")).iterator();
 					}
 					
 				});
