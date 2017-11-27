@@ -5,55 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ae232c3-f8ab-4ccd-8653-751c9edd0c56" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/HbaseTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sparkDemo/ActionOperation$$anonfun$main$1.class" afterPath="$PROJECT_DIR$/target/classes/sparkDemo/ActionOperation$$anonfun$main$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sparkDemo/ActionOperation$$anonfun$main$2.class" afterPath="$PROJECT_DIR$/target/classes/sparkDemo/ActionOperation$$anonfun$main$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sparkDemo/ActionOperation$$anonfun$main$3.class" afterPath="$PROJECT_DIR$/target/classes/sparkDemo/ActionOperation$$anonfun$main$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sparkDemo/ActionOperation$$anonfun$main$4.class" afterPath="$PROJECT_DIR$/target/classes/sparkDemo/ActionOperation$$anonfun$main$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sparkDemo/ActionOperation$$anonfun$main$5.class" afterPath="$PROJECT_DIR$/target/classes/sparkDemo/ActionOperation$$anonfun$main$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sparkDemo/ActionOperation$.class" afterPath="$PROJECT_DIR$/target/classes/sparkDemo/ActionOperation$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sparkDemo/ActionOperation.class" afterPath="$PROJECT_DIR$/target/classes/sparkDemo/ActionOperation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sparkDemo/AggregateFunction$.class" afterPath="$PROJECT_DIR$/target/classes/sparkDemo/AggregateFunction$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sparkDemo/AggregateFunction.class" afterPath="$PROJECT_DIR$/target/classes/sparkDemo/AggregateFunction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sparkDemo/BasicOperation$$typecreator1$1.class" afterPath="$PROJECT_DIR$/target/classes/sparkDemo/BasicOperation$$typecreator1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sparkDemo/BasicOperation$.class" afterPath="$PROJECT_DIR$/target/classes/sparkDemo/BasicOperation$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sparkDemo/BasicOperation$Employee$.class" afterPath="$PROJECT_DIR$/target/classes/sparkDemo/BasicOperation$Employee$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sparkDemo/BasicOperation$Employee.class" afterPath="$PROJECT_DIR$/target/classes/sparkDemo/BasicOperation$Employee.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sparkDemo/BasicOperation.class" afterPath="$PROJECT_DIR$/target/classes/sparkDemo/BasicOperation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sparkDemo/DepartmentAvgSalaryAndAgeStat$.class" afterPath="$PROJECT_DIR$/target/classes/sparkDemo/DepartmentAvgSalaryAndAgeStat$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sparkDemo/DepartmentAvgSalaryAndAgeStat.class" afterPath="$PROJECT_DIR$/target/classes/sparkDemo/DepartmentAvgSalaryAndAgeStat.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sparkDemo/OtherFunction$.class" afterPath="$PROJECT_DIR$/target/classes/sparkDemo/OtherFunction$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sparkDemo/OtherFunction.class" afterPath="$PROJECT_DIR$/target/classes/sparkDemo/OtherFunction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sparkDemo/StructuredNetworkWordCount$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/classes/sparkDemo/StructuredNetworkWordCount$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sparkDemo/StructuredNetworkWordCount$.class" afterPath="$PROJECT_DIR$/target/classes/sparkDemo/StructuredNetworkWordCount$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sparkDemo/StructuredNetworkWordCount.class" afterPath="$PROJECT_DIR$/target/classes/sparkDemo/StructuredNetworkWordCount.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sparkDemo/TypedOperation$$anonfun$main$1.class" afterPath="$PROJECT_DIR$/target/classes/sparkDemo/TypedOperation$$anonfun$main$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sparkDemo/TypedOperation$$anonfun$main$2.class" afterPath="$PROJECT_DIR$/target/classes/sparkDemo/TypedOperation$$anonfun$main$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sparkDemo/TypedOperation$$anonfun$main$3.class" afterPath="$PROJECT_DIR$/target/classes/sparkDemo/TypedOperation$$anonfun$main$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sparkDemo/TypedOperation$$typecreator1$1.class" afterPath="$PROJECT_DIR$/target/classes/sparkDemo/TypedOperation$$typecreator1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sparkDemo/TypedOperation$$typecreator2$1.class" afterPath="$PROJECT_DIR$/target/classes/sparkDemo/TypedOperation$$typecreator2$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sparkDemo/TypedOperation$$typecreator3$1.class" afterPath="$PROJECT_DIR$/target/classes/sparkDemo/TypedOperation$$typecreator3$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sparkDemo/TypedOperation$.class" afterPath="$PROJECT_DIR$/target/classes/sparkDemo/TypedOperation$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sparkDemo/TypedOperation$Department$.class" afterPath="$PROJECT_DIR$/target/classes/sparkDemo/TypedOperation$Department$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sparkDemo/TypedOperation$Department.class" afterPath="$PROJECT_DIR$/target/classes/sparkDemo/TypedOperation$Department.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sparkDemo/TypedOperation$Employee$.class" afterPath="$PROJECT_DIR$/target/classes/sparkDemo/TypedOperation$Employee$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sparkDemo/TypedOperation$Employee.class" afterPath="$PROJECT_DIR$/target/classes/sparkDemo/TypedOperation$Employee.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sparkDemo/TypedOperation.class" afterPath="$PROJECT_DIR$/target/classes/sparkDemo/TypedOperation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sparkDemo/streaming/HDFSDataSource$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/classes/sparkDemo/streaming/HDFSDataSource$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sparkDemo/streaming/HDFSDataSource$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/classes/sparkDemo/streaming/HDFSDataSource$$anonfun$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sparkDemo/streaming/HDFSDataSource$$anonfun$3.class" afterPath="$PROJECT_DIR$/target/classes/sparkDemo/streaming/HDFSDataSource$$anonfun$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sparkDemo/streaming/HDFSDataSource$.class" afterPath="$PROJECT_DIR$/target/classes/sparkDemo/streaming/HDFSDataSource$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sparkDemo/streaming/HDFSDataSource.class" afterPath="$PROJECT_DIR$/target/classes/sparkDemo/streaming/HDFSDataSource.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sparkDemo/streaming/StreamingWorldCount$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/classes/sparkDemo/streaming/StreamingWorldCount$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sparkDemo/streaming/StreamingWorldCount$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/classes/sparkDemo/streaming/StreamingWorldCount$$anonfun$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sparkDemo/streaming/StreamingWorldCount$$anonfun$3.class" afterPath="$PROJECT_DIR$/target/classes/sparkDemo/streaming/StreamingWorldCount$$anonfun$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sparkDemo/streaming/StreamingWorldCount$.class" afterPath="$PROJECT_DIR$/target/classes/sparkDemo/streaming/StreamingWorldCount$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sparkDemo/streaming/StreamingWorldCount.class" afterPath="$PROJECT_DIR$/target/classes/sparkDemo/streaming/StreamingWorldCount.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/SparkProcessHbaseData.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sparkDataSet.iml" afterPath="$PROJECT_DIR$/sparkDataSet.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/HbaseTest.java" afterPath="$PROJECT_DIR$/src/main/java/HbaseUtil.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -78,31 +35,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="DepartmentAvgSalaryAndAgeStat.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/sparkDemo/DepartmentAvgSalaryAndAgeStat.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="36" column="10" lean-forward="false" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="695">
-              <caret line="162" column="40" lean-forward="false" selection-start-line="162" selection-start-column="40" selection-end-line="162" selection-end-column="40" />
+            <state relative-caret-position="1674">
+              <caret line="93" column="49" lean-forward="false" selection-start-line="93" selection-start-column="49" selection-end-line="93" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HbaseTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/HbaseTest.java">
+      <file leaf-file-name="SparkProcessHbaseData.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SparkProcessHbaseData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="40" column="66" lean-forward="false" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="66" />
+            <state relative-caret-position="320">
+              <caret line="38" column="11" lean-forward="true" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,21 +57,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Admin.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-client/1.1.2/hbase-client-1.1.2-sources.jar!/org/apache/hadoop/hbase/client/Admin.java">
+      <file leaf-file-name="Put.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-client/1.1.2/hbase-client-1.1.2-sources.jar!/org/apache/hadoop/hbase/client/Put.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="93" column="21" lean-forward="false" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
+            <state relative-caret-position="2412">
+              <caret line="153" column="22" lean-forward="false" selection-start-line="153" selection-start-column="13" selection-end-line="153" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KafkaReceiverWordCount.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/streaming/KafkaReceiverWordCount.java">
+      <file leaf-file-name="HbaseUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/HbaseUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="666">
-              <caret line="52" column="76" lean-forward="false" selection-start-line="52" selection-start-column="76" selection-end-line="52" selection-end-column="76" />
+            <state relative-caret-position="288">
+              <caret line="24" column="50" lean-forward="false" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,43 +79,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StreamingKafkaReceiver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/streaming/StreamingKafkaReceiver.java">
+      <file leaf-file-name="CellUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://E:/安装包/hbase/hbase-1.1.12-src/hbase-1.1.12/hbase-common/src/main/java/org/apache/hadoop/hbase/CellUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="41" column="36" lean-forward="false" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StreamingWorldCount.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/sparkDemo/streaming/StreamingWorldCount.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="21" column="49" lean-forward="false" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+            <state relative-caret-position="738">
+              <caret line="55" column="33" lean-forward="false" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StructuredNetworkWordCount.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/sparkDemo/StructuredNetworkWordCount.scala">
+      <file leaf-file-name="CellUtil.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-common/1.1.2/hbase-common-1.1.2.jar!/org/apache/hadoop/hbase/CellUtil.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            <state relative-caret-position="198">
+              <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataStreamWriter.scala" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.0.2/spark-sql_2.11-2.0.2-sources.jar!/org/apache/spark/sql/streaming/DataStreamWriter.scala">
+      <file leaf-file-name="Cell.java" pinned="false" current-in-tab="false">
+        <entry file="file://E:/安装包/hbase/hbase-1.1.12-src/hbase-1.1.12/hbase-common/src/main/java/org/apache/hadoop/hbase/Cell.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="936">
-              <caret line="57" column="52" lean-forward="false" selection-start-line="57" selection-start-column="52" selection-end-line="57" selection-end-column="52" />
+            <state relative-caret-position="1098">
+              <caret line="62" column="23" lean-forward="false" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HBaseConfiguration.java" pinned="false" current-in-tab="false">
+        <entry file="file://E:/安装包/hbase/hbase-1.1.12-src/hbase-1.1.12/hbase-common/src/main/java/org/apache/hadoop/hbase/HBaseConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -188,6 +133,9 @@
       <find>Administrator</find>
       <find>C:\\Users\\Administrator\\Desktop</find>
       <find>C:\\Users\\71065\\Desktop</find>
+      <find>saveAsNewAPIHadoopDataset</find>
+      <find>clientPort</find>
+      <find>listTables</find>
     </findStrings>
     <replaceStrings>
       <replace>71065</replace>
@@ -225,8 +173,11 @@
         <option value="$PROJECT_DIR$/src/main/java/streaming/KafkaReceiverWordCount.java" />
         <option value="$PROJECT_DIR$/src/main/java/streaming/DeviceLog.java" />
         <option value="$PROJECT_DIR$/src/main/java/streaming/StreamingKafkaReceiver.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/HbaseTest.java" />
+        <option value="E:/dependcelib/spark/jars/hadoop-mapreduce-client-core-2.4.1.jar!/org/apache/hadoop/mapreduce/Job.class" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/HbaseUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SparkProcessHbaseData.java" />
       </list>
     </option>
   </component>
@@ -255,11 +206,16 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="spark demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spark demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -346,7 +302,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -378,22 +333,6 @@
               <item name="sparkDataSet" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="streaming" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sparkDataSet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sparkDataSet" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="HbaseTest" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="sparkDataSet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sparkDataSet" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -404,10 +343,21 @@
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="sparkDemo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="sparkDataSet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparkDataSet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparkDataSet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
@@ -441,7 +391,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HbaseTest">
+  <component name="RunManager" selected="Application.SparkProcessHbaseData">
     <configuration name="ActionOperation" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -461,28 +411,9 @@
       <module name="sparkDataSet" />
       <envs />
     </configuration>
-    <configuration name="AggregateFunction" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="sparkDemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="sparkDemo.AggregateFunction" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="sparkDataSet" />
-      <envs />
-    </configuration>
-    <configuration name="HbaseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="HbaseUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="HbaseTest" />
+      <option name="MAIN_CLASS_NAME" value="HbaseUtil" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -502,6 +433,20 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="sparkDemo.OtherFunction" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="sparkDataSet" />
+      <envs />
+    </configuration>
+    <configuration name="SparkProcessHbaseData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="SparkProcessHbaseData" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -773,18 +718,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.ActionOperation" />
-      <item index="1" class="java.lang.String" itemvalue="Application.AggregateFunction" />
-      <item index="2" class="java.lang.String" itemvalue="Application.OtherFunction" />
-      <item index="3" class="java.lang.String" itemvalue="Application.StreamingKafkaReceiver" />
-      <item index="4" class="java.lang.String" itemvalue="Application.HbaseTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.OtherFunction" />
+      <item index="2" class="java.lang.String" itemvalue="Application.StreamingKafkaReceiver" />
+      <item index="3" class="java.lang.String" itemvalue="Application.HbaseUtil" />
+      <item index="4" class="java.lang.String" itemvalue="Application.SparkProcessHbaseData" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.HbaseTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.StreamingKafkaReceiver" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ActionOperation" />
-        <item index="3" class="java.lang.String" itemvalue="Application.OtherFunction" />
-        <item index="4" class="java.lang.String" itemvalue="Application.AggregateFunction" />
+        <item index="0" class="java.lang.String" itemvalue="Application.SparkProcessHbaseData" />
+        <item index="1" class="java.lang.String" itemvalue="Application.HbaseUtil" />
+        <item index="2" class="java.lang.String" itemvalue="Application.StreamingKafkaReceiver" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ActionOperation" />
+        <item index="4" class="java.lang.String" itemvalue="Application.OtherFunction" />
       </list>
     </recent_temporary>
   </component>
@@ -819,12 +764,18 @@
       <workItem from="1510103958724" duration="908000" />
       <workItem from="1510191296650" duration="651000" />
       <workItem from="1510277644635" duration="1053000" />
-      <workItem from="1510648375950" duration="3925000" />
+      <workItem from="1510648375950" duration="5145000" />
+      <workItem from="1510822316242" duration="3079000" />
+      <workItem from="1510902709387" duration="599000" />
+      <workItem from="1511142283532" duration="13705000" />
+      <workItem from="1511245376420" duration="4808000" />
+      <workItem from="1511507878904" duration="600000" />
+      <workItem from="1511765323879" duration="602000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83297000" />
+    <option name="totallyTimeSpent" value="107910000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -836,29 +787,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32796317" sideWeight="0.4978425" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22324511" sideWeight="0.50863" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864866" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.87226695" sideWeight="0.50916934" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43203884" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20483314" sideWeight="0.49137002" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09781358" sideWeight="0.49137002" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33009708" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3651564" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973032" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15765247" sideWeight="0.49083063" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7986191" sideWeight="0.4940669" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -866,9 +815,11 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973032" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914287" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32796317" sideWeight="0.4978425" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -880,7 +831,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="16" />
+      <option name="time" value="17" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -894,69 +845,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkDemo/DepartmentAvgSalaryAndAgeStat.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="59" lean-forward="false" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkDemo/ActionOperation.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="43" column="23" lean-forward="false" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkDemo/BasicOperation.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="75" column="31" lean-forward="false" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkDemo/DepartmentAvgSalaryAndAgeStat.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="59" lean-forward="true" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkDemo/ActionOperation.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="43" column="23" lean-forward="true" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.0.2/spark-sql_2.11-2.0.2.jar!/org/apache/spark/sql/Dataset.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkDemo/BasicOperation.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1062">
-          <caret line="59" column="28" lean-forward="false" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkDemo/MyRouteMain.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkDemo/MyRouteBuilder.scala" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.0.2/spark-sql_2.11-2.0.2.jar!/org/apache/spark/sql/Dataset.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.0.2/spark-sql_2.11-2.0.2-sources.jar!/org/apache/spark/sql/Dataset.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -1052,7 +940,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1060,67 +947,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/streaming/DeviceLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3546">
-          <caret line="197" column="20" lean-forward="false" selection-start-line="178" selection-start-column="15" selection-end-line="197" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkDemo/streaming/StreamingWorldCount.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="21" column="49" lean-forward="false" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkDemo/StructuredNetworkWordCount.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.0.2/spark-sql_2.11-2.0.2-sources.jar!/org/apache/spark/sql/streaming/DataStreamWriter.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="57" column="52" lean-forward="false" selection-start-line="57" selection-start-column="52" selection-end-line="57" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/streaming/KafkaReceiverWordCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="52" column="76" lean-forward="false" selection-start-line="52" selection-start-column="76" selection-end-line="52" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/streaming/StreamingKafkaReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="41" column="36" lean-forward="false" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkDemo/DepartmentAvgSalaryAndAgeStat.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="36" column="10" lean-forward="false" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1128,30 +954,176 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="53" column="23" lean-forward="false" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-common/1.1.2/hbase-common-1.1.2.jar!/org/apache/hadoop/hbase/KeyValue.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3210">
+          <caret line="690" column="38" lean-forward="false" selection-start-line="690" selection-start-column="38" selection-end-line="690" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkDemo/DepartmentAvgSalaryAndAgeStat.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="10" lean-forward="false" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/streaming/DeviceLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3546">
+          <caret line="197" column="20" lean-forward="false" selection-start-line="178" selection-start-column="15" selection-end-line="197" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/streaming/KafkaReceiverWordCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="52" column="76" lean-forward="false" selection-start-line="52" selection-start-column="76" selection-end-line="52" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/streaming/StreamingKafkaReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="41" column="36" lean-forward="false" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkDemo/streaming/StreamingWorldCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="21" column="49" lean-forward="false" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkDemo/StructuredNetworkWordCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.0.2/spark-sql_2.11-2.0.2-sources.jar!/org/apache/spark/sql/streaming/DataStreamWriter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="57" column="52" lean-forward="false" selection-start-line="57" selection-start-column="52" selection-end-line="57" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/dependcelib/spark/jars/hadoop-mapreduce-client-core-2.4.1.jar!/org/apache/hadoop/mapreduce/Job.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="453" column="16" lean-forward="false" selection-start-line="453" selection-start-column="16" selection-end-line="453" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-client/1.1.2/hbase-client-1.1.2-sources.jar!/org/apache/hadoop/hbase/client/Put.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2412">
+          <caret line="153" column="22" lean-forward="false" selection-start-line="153" selection-start-column="13" selection-end-line="153" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-common/1.1.2/hbase-common-1.1.2.jar!/org/apache/hadoop/hbase/HConstants.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="54" column="52" lean-forward="false" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/hadoop-mapreduce-client-core-2.4.1-sources.jar!/org/apache/hadoop/mapreduce/Job.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="819" column="31" lean-forward="false" selection-start-line="819" selection-start-column="31" selection-end-line="819" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-client/1.1.2/hbase-client-1.1.2-sources.jar!/org/apache/hadoop/hbase/client/Admin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
+        <state relative-caret-position="278">
           <caret line="93" column="21" lean-forward="false" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-client/1.1.2/hbase-client-1.1.2-sources.jar!/org/apache/hadoop/hbase/client/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="235" column="16" lean-forward="false" selection-start-line="235" selection-start-column="16" selection-end-line="235" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="695">
-          <caret line="162" column="40" lean-forward="false" selection-start-line="162" selection-start-column="40" selection-end-line="162" selection-end-column="40" />
+        <state relative-caret-position="1674">
+          <caret line="93" column="49" lean-forward="false" selection-start-line="93" selection-start-column="49" selection-end-line="93" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/HbaseTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-common/1.1.2/hbase-common-1.1.2.jar!/org/apache/hadoop/hbase/Cell.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="40" column="66" lean-forward="false" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="66" />
+        <state relative-caret-position="198">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-common/1.1.2/hbase-common-1.1.2.jar!/org/apache/hadoop/hbase/HBaseConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/安装包/hbase/hbase-1.1.12-src/hbase-1.1.12/hbase-common/src/main/java/org/apache/hadoop/hbase/HBaseConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/安装包/hbase/hbase-1.1.12-src/hbase-1.1.12/hbase-common/src/main/java/org/apache/hadoop/hbase/Cell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1098">
+          <caret line="62" column="23" lean-forward="false" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-common/1.1.2/hbase-common-1.1.2.jar!/org/apache/hadoop/hbase/CellUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/安装包/hbase/hbase-1.1.12-src/hbase-1.1.12/hbase-common/src/main/java/org/apache/hadoop/hbase/CellUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="55" column="33" lean-forward="false" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/HbaseUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="24" column="50" lean-forward="false" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SparkProcessHbaseData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="38" column="11" lean-forward="true" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1235,11 +1207,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>spark_dep</last-edited>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.57571626" />
               </list>
             </option>
           </splitter-proportions>

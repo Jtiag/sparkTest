@@ -6,28 +6,23 @@ import org.apache.hadoop.hbase.util.Bytes;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  * Created by xubo5 on 2017/10/16.
  */
-public class HbaseTest {
+public class HbaseUtil {
     private static Configuration configuration;
     private static Connection connection;
     private static Admin admin;
-    private static String hbaseIp = "10.112.73.29,10.112.73.30,10.112.73.31";
+    private static String hbaseIp = "cdhmanager,cdhslave2,cdhslave3";
+
     public static void main(String[] args) throws IOException {
-        listTables();
-     /*   createTable("t2",new String[]{"cf1","cf2"});
-        insterRow("t2", "rw1", "cf1", "q1", "val1");*/
-        // System.out.println("get data from tables:***********");
-        // getData("DEVICE_OPT", "virt7a335971f5474e_1508317225724", "values", "");
-        //  selectRowKey("DEVICE_OPT", "gome10000000006656_1508231640885");
-        //   System.out.println(scanDataByRowKeyFilter("DEVICE_OPT", "gome10000000006656"));
-        //  scanData("DEVICE_OPT", "rw1", "rw2");
-        // scanData("DEVICE_OPT", "", "");
-        //  getCloumnName("DEVICE_OPT");
-        /*deleRow("t2","rw1","cf1","q1");
-        deleteTable("t2");*/
+//        listTables();
+//        scanData("BLUETOOTH_DATA_GOME", "gome10000000018293_1506195849146", "gome10000000019858_150781865");
+//        String[] cls = {"row1","cf1","value"};
+//        createTable("ts11",cls);
+        scanData("BLUETOOTH_DATA_GOME",null,null);
     }
 
     /**
@@ -38,16 +33,16 @@ public class HbaseTest {
         /**
          * 300 环境
          */
-//        configuration.set("hbase.zookeeper.quorum","hadooptest01,hadooptest02,hadooptest03");
-//        configuration.set("zookeeper.znode.parent","/hbase-unsecure");
+//        configuration.set(HConstants.ZOOKEEPER_QUORUM,"hadooptest01,hadooptest02,hadooptest03");
+//        configuration.set(HConstants.ZOOKEEPER_ZNODE_PARENT,"/hbase-unsecure");
 
         /**
          * 800 环境
-         */
-        configuration.set("hbase.zookeeper.quorum", hbaseIp);
-        configuration.set("zookeeper.znode.parent", "/hbase");
+//         */
+        configuration.set(HConstants.ZOOKEEPER_QUORUM, hbaseIp);
+        configuration.set(HConstants.ZOOKEEPER_ZNODE_PARENT, "/hbase");
 
-        configuration.set("hbase.zookeeper.property.clientPort", "2181");
+        configuration.set(HConstants.ZOOKEEPER_CLIENT_PORT, "2181");
         try {
             connection = ConnectionFactory.createConnection(configuration);
             admin = connection.getAdmin();
@@ -59,10 +54,12 @@ public class HbaseTest {
     //关闭连接
     public static void close() {
         try {
-            if (null != admin)
+            if (null != admin) {
                 admin.close();
-            if (null != connection)
+            }
+            if (null != connection) {
                 connection.close();
+            }
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -119,7 +116,7 @@ public class HbaseTest {
     //查看已有表
     public static void listTables() throws IOException {
         init();
-        HTableDescriptor hTableDescriptors[] = admin.listTables();
+        HTableDescriptor[] hTableDescriptors = admin.listTables();
         for (HTableDescriptor hTableDescriptor : hTableDescriptors) {
             System.out.println(hTableDescriptor.getNameAsString());
         }
@@ -179,10 +176,10 @@ public class HbaseTest {
     public static void showCell(Result result) {
         Cell[] cells = result.rawCells();
         for (Cell cell : cells) {
-            System.out.println("RowName:" + new String(CellUtil.cloneRow(cell)) + " ");
-            System.out.println("Timetamp:" + cell.getTimestamp() + " ");
+            System.out.println("rowKey:" + new String(CellUtil.cloneRow(cell)) + " ");
+            System.out.println("timestamp:" + cell.getTimestamp() + " ");
             System.out.println("column Family:" + new String(CellUtil.cloneFamily(cell)) + " ");
-            System.out.println("row Name:" + new String(CellUtil.cloneQualifier(cell)) + " ");
+            System.out.println("qualifier:" + new String(CellUtil.cloneQualifier(cell)) + " ");
             System.out.println("value:" + new String(CellUtil.cloneValue(cell)) + " ");
         }
     }
@@ -192,8 +189,8 @@ public class HbaseTest {
         init();
         Table table = connection.getTable(TableName.valueOf(tableName));
         Scan scan = new Scan();
-        //    scan.setStartRow(Bytes.toBytes(startRow));
-        //     scan.setStopRow(Bytes.toBytes(stopRow));
+//        scan.setStartRow(Bytes.toBytes(startRow));
+//        scan.setStopRow(Bytes.toBytes(stopRow));
         ResultScanner resultScanner = table.getScanner(scan);
         for (Result result : resultScanner) {
             showCell(result);
@@ -207,7 +204,11 @@ public class HbaseTest {
         Table table = connection.getTable(TableName.valueOf(tableName));
         Get get = new Get(Bytes.toBytes(rowKey));
         Result rs = table.get(get);
-
+        Cell[] cells = rs.rawCells();
+        for (Cell cell : cells) {
+            System.out.println(Arrays.toString(cell.getRowArray()));
+            System.out.println(Arrays.toString(cell.getFamilyArray()));
+        }
         for (KeyValue kv : rs.raw()) {
             System.out.println("--------------------" + new String(kv.getRow()) + "----------------------------");
             System.out.println("Column Family: " + new String(kv.getFamily()));
