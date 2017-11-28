@@ -1,3 +1,7 @@
+package sparkhnase;
+
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.hbase.HBaseConfiguration;
 import org.apache.hadoop.hbase.HConstants;
@@ -14,10 +18,13 @@ import org.apache.hadoop.hbase.util.Bytes;
 import org.apache.hadoop.mapred.JobConf;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.spark.SparkConf;
+import org.apache.spark.SparkContext;
 import org.apache.spark.api.java.JavaPairRDD;
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
+import org.apache.spark.api.java.function.Function;
 import org.apache.spark.api.java.function.PairFunction;
+import org.apache.spark.sql.SparkSession;
 import scala.Tuple2;
 
 import java.io.IOException;
@@ -31,9 +38,11 @@ public class SparkProcessHbaseData {
     private final static String hbase800Ip = "10.112.73.29:2181,10.112.73.30:2181,10.112.73.31:2181";
     private final static String znode300Parent = "/hbase-unsecure";
     private final static String znode800Parent = "/hbase";
+    private static Log log = LogFactory.getLog(SparkProcessHbaseData.class);
     public static void main(String[] args) {
+        log.info("app start......."+System.currentTimeMillis());
         SparkConf sparkConf = new SparkConf().setAppName("SparkProcessHbaseData")
-                .setMaster("local[2]");
+                .setMaster("local[4]");
 
         JavaSparkContext sc = new JavaSparkContext(sparkConf);
         /**
@@ -46,15 +55,15 @@ public class SparkProcessHbaseData {
         readDataFromHbase(sc);
         sc.close();
 
-
+        log.info("app stop......."+System.currentTimeMillis());
     }
 
     private static void readDataFromHbase(JavaSparkContext sc) {
         Configuration configuration = HBaseConfiguration.create();
 
         Scan scan = new Scan();
-        scan.addFamily(Bytes.toBytes("values"));
-        scan.addColumn(Bytes.toBytes("values"),Bytes.toBytes("uid"));
+//        scan.addFamily(Bytes.toBytes("values"));
+//        scan.addColumn(Bytes.toBytes("values"),Bytes.toBytes("uid"));
 
         String tableName = "BLUETOOTH_DATA_GOME";
 
@@ -64,8 +73,18 @@ public class SparkProcessHbaseData {
 
         JavaPairRDD<ImmutableBytesWritable, Result> javaPairRDD = sc.newAPIHadoopRDD(configuration, TableInputFormat.class, ImmutableBytesWritable.class, Result.class);
 
-        long count = javaPairRDD.count();
-        System.out.println(count);
+        JavaRDD<String> stringJavaRDD = javaPairRDD.map(new Function<Tuple2<ImmutableBytesWritable, Result>, String>() {
+            @Override
+            public String call(Tuple2<ImmutableBytesWritable, Result> immutableBytesWritableResultTuple2) throws Exception {
+                return immutableBytesWritableResultTuple2._2.toString();
+            }
+        });
+        SparkContext sparkContext = sc.sc();
+
+//        SparkSession spark = sparkContext.
+
+//        long count = javaPairRDD.count();
+//        System.out.println(count);
 
         try {
             ClientProtos.Scan toScan = ProtobufUtil.toScan(scan);
