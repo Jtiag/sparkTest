@@ -14,7 +14,7 @@ import org.apache.spark.sql.SparkSession
   */
 object DepartmentAvgSalaryAndAgeStat {
   def main(args: Array[String]): Unit = {
-    val warehouseLocation = "hdfs://Amb:8020/tmp/spark-warehouse"
+    val warehouseLocation = "hdfs://spark01:8020/tmp/spark-warehouse"
     val spark = SparkSession.builder()
       .appName("DepartmentAvgSalaryAndAgeStat")
       .master("local[*]")

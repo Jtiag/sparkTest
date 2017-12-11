@@ -24,7 +24,7 @@ public class HbaseUtil {
 //        scanData("BLUETOOTH_DATA_GOME", "gome10000000018293_1506195849146", "gome10000000019858_150781865");
 //        String[] cls = {"row1","cf1","value"};
 //        createTable("ts11",cls);
-        scanData("BLUETOOTH_DATA_GOME",null,null);
+        scanData("gome_sale", null, null);
     }
 
     /**
@@ -35,14 +35,13 @@ public class HbaseUtil {
         /**
          * 300 环境
          */
-//        configuration.set(HConstants.ZOOKEEPER_QUORUM,"hadooptest01,hadooptest02,hadooptest03");
-//        configuration.set(HConstants.ZOOKEEPER_ZNODE_PARENT,"/hbase-unsecure");
-
+        configuration.set(HConstants.ZOOKEEPER_QUORUM, "10.112.101.152,10.112.101.151,10.112.101.150");
+        configuration.set(HConstants.ZOOKEEPER_ZNODE_PARENT, "/hbase-unsecure");
         /**
          * 800 环境
-//         */
-        configuration.set(HConstants.ZOOKEEPER_QUORUM, hbaseIp);
-        configuration.set(HConstants.ZOOKEEPER_ZNODE_PARENT, "/hbase");
+         */
+//        configuration.set(HConstants.ZOOKEEPER_QUORUM, hbaseIp);
+//        configuration.set(HConstants.ZOOKEEPER_ZNODE_PARENT, "/hbase");
 
         configuration.set(HConstants.ZOOKEEPER_CLIENT_PORT, "2181");
         try {
@@ -178,11 +177,13 @@ public class HbaseUtil {
     public static void showCell(Result result) {
         Cell[] cells = result.rawCells();
         for (Cell cell : cells) {
-            System.out.println("rowKey:" + new String(CellUtil.cloneRow(cell)) + " ");
-            System.out.println("timestamp:" + cell.getTimestamp() + " ");
-            System.out.println("column Family:" + new String(CellUtil.cloneFamily(cell)) + " ");
-            System.out.println("qualifier:" + new String(CellUtil.cloneQualifier(cell)) + " ");
             System.out.println("value:" + new String(CellUtil.cloneValue(cell)) + " ");
+            System.out.println("主键:" + new String(CellUtil.cloneRow(cell)));
+            System.out.println("列族:" + new String(CellUtil.cloneFamily(cell)));
+            System.out.println("列名:" + new String(CellUtil.cloneQualifier(cell)));
+            System.out.println("值:" + new String(CellUtil.cloneValue(cell)));
+            System.out.println("时间戳:" + cell.getTimestamp());
+            System.out.println("-----------------------------------------------");
         }
     }
 
